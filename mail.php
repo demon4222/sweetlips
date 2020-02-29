@@ -10,4 +10,4 @@ $body = "От: $email\nИмя: $name\nТема: $title\n\nСообщение: $m
 
 $a = mail($to, $subject, $message);
 
-echo "<script type='text/javascript'>window.top.location='https://36cc4bdd.ngrok.io';</script>";
+echo "<script type='text/javascript'>window.top.location='http://sweetlips.com.ua';</script>";
