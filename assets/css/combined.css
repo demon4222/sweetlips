@@ -8980,9 +8980,13 @@ a:hover > .nk-icon-search:after {
     opacity: .99
 }
 
-.empty-space-5, .empty-space-6, .empty-space-9 {
+.empty-space-4, .empty-space-5, .empty-space-6, .empty-space-9, .empty-space-8 {
     width: 100%;
     clear: both;
+}
+
+.empty-space-4 {
+    height: 3rem;
 }
 
 .empty-space-5 {
@@ -8991,6 +8995,10 @@ a:hover > .nk-icon-search:after {
 
 .empty-space-6 {
     height: 6rem;
+}
+
+.empty-space-8 {
+    height: 7.6rem;
 }
 
 .empty-space-9 {
