@@ -4,6 +4,11 @@ $email = $_POST['email'];
 $title = $_POST['title'];
 $message = $_POST['message'];
 
+if(!isset($name) || !isset($email) || !isset($title) || !isset($message)) {
+    echo "<script type='text/javascript'>window.top.location='http://sweetlips.com.ua';</script>";
+    return;
+}
+
 $to = "sweetlipsua@gmail.com";
 $subject = "Форма дистрибьюторов на sweetlips.com.ua";
 $body = "От: $email\nИмя: $name\nТема: $title\n\nСообщение: $message";
